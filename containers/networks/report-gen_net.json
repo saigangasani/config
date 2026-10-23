@@ -1,0 +1,23 @@
+{
+     "name": "report-gen_net",
+     "id": "4c55d6facdce837d3db4e3af0726289ed1426016856dc969491ccbd4364cd650",
+     "driver": "bridge",
+     "network_interface": "podman1",
+     "created": "2026-09-17T15:45:15.744292136Z",
+     "subnets": [
+          {
+               "subnet": "10.89.0.0/24",
+               "gateway": "10.89.0.1"
+          }
+     ],
+     "ipv6_enabled": false,
+     "internal": false,
+     "dns_enabled": true,
+     "labels": {
+          "com.docker.compose.project": "report-gen",
+          "io.podman.compose.project": "report-gen"
+     },
+     "ipam_options": {
+          "driver": "host-local"
+     }
+}
